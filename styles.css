@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.uni {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slides {
+  width: 100%;
+  background-color: aqua;
+}
+
+.main {
+  width: 100%;
+  background-color: pink;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+.branding {
+  background-image: url("./images/headerBackground.jpg");
+  width: 100%;
+  margin: 0% auto;
+}
+
+.branding-uni {
+  width: 50%;
+  height: 80px;
+  margin: 0% auto;
+  display: flex;
+  background-image: url("./images/headerLogo.png");
+  background-repeat: no-repeat;
+  background-position: left 10px;
+}
+
+.slides {
+  width: 100%;
+  background-image: url("./images/homeCenterpieceBackground.png");
+}
+
+.slides-uni {
+  width: 50%;
+  height: 300px;
+  margin: 0px auto;
+  background-image: url("./images/make_the_most_of_a_spring_admission.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  position: relative;
+}
+
+#slider-img {
+  position: absolute;
+  top: 270px;
+  right: 20px;
+}
+
+/* .main {
+  width: 100%;
+  height: 600px;
+  background-color: antiquewhite;
+} */
+
+.main {
+  width: 100%;
+  background-image: url("./images/home-audienceAndBoilerplateBackground.jpg");
+  background-position: center;
+  height: 600px;
+  margin: 0% auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+#image-1 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 16px;
+  left: 480px;
+}
+
+#image-2 {
+  position: absolute;
+  top: 30px;
+  left: 445px;
+}
+
+#image-3 {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 30px;
+  left: 710px;
+}
+
+#image-4 {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 30px;
+  left: 960px;
+}
+
+#image-5 {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 30px;
+  left: 1210px;
+}
+
+#student-img {
+  position: absolute;
+  width: 200px;
+  top: 70px;
+  left: 710px;
+}
+
+#usnwr-img {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: blueviolet;
+
+  position: relative; 
+  overflow: hidden; 
+}
+
+.footer-navigation {
+  width: 60%;
+  height: 118.5px;
+
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+
+  background-image: url("./images/navigationListBackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-uni {
+  width: 60%;
+  height: 100px;
+
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+
+  background-image: url("./images/footerBackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
