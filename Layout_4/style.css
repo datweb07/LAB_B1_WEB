@@ -1,0 +1,112 @@
+.exam {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner-exam {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(109, 109, 240);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-exam {
+  width: 100%;
+  height: 35px;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-exam {
+  float: left;
+  width: 20%;
+  height: 150px;
+  background-color: green;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-exam {
+  float: left;
+  width: 50%;
+  height: 150px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-exam {
+  float: left;
+  width: 30%;
+  height: 150px;
+}
+
+.right-exam-1,
+.right-exam-2 {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.right-exam-1 {
+  background-color: brown;
+}
+
+.right-exam-2 {
+  background-color: darkviolet;
+}
+
+.footer-left-exam {
+  float: left;
+  width: 20%;
+  height: 120px;
+}
+
+.footer-left-exam-1,
+.footer-left-exam-2 {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-left-exam-1 {
+  background-color: aqua;
+}
+
+.footer-left-exam-2 {
+  background-color: yellow;
+}
+
+.footer-right-exam {
+  float: left;
+  width: 80%;
+  height: 120px;
+  background-color: greenyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cpright-exam {
+  float: left;
+  width: 100%;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
